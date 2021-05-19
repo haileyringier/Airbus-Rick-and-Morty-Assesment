@@ -1,8 +1,9 @@
 import './App.css';
+import Overview from './components/Overview';
 
 function App() {
   return (
-    <h1>HELLO</h1>
+    <Overview />
   );
 }
 
