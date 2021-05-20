@@ -1,8 +1,12 @@
 import React from 'react';
 
-const CharacterCard = () => (
+const CharacterCard = ({ character }) => (
     <div>
-        <p>Character Card </p>
+        <p>{character.name}</p>
+        <p>{character.status}</p>
+        <p>{character.gender}</p>
+        <p>{character.species}</p>
+        {/* <img href={character.image} alt={character.name}></img> */}
     </div>
 );
 
