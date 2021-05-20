@@ -4,7 +4,7 @@ import CharacterCard from './CharacterCard';
 const CharacterCardSection = ({characters}) => {
 
     return (
-    <div>
+    <div className="character-card-section">
         {characters.results.map(character => {
             return <CharacterCard key={character.id} character={character} />
         }

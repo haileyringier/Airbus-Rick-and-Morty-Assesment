@@ -48,7 +48,7 @@ const Overview = () => {
     }
 
     return(
-        <div>
+        <div className="overview-section">
             <h1>Rick and Morty Characters</h1>
             <p>In the spotlight:  </p>
             <CharacterCardSection characters={data.characters}/>

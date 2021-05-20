@@ -1,7 +1,7 @@
 import React from 'react';
 
 const CharacterCard = ({ character }) => (
-    <div>
+    <div className="character-card">
         <p>{character.name}</p>
         <p>{character.status}</p>
         <p>{character.gender}</p>

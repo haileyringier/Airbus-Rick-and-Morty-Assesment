@@ -1,0 +1,19 @@
+
+body {
+    /* align-content: center; */
+    text-align: center;
+}
+
+.character-card-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.character-card {
+    border: black 2px solid;
+    min-width: 200px;
+    margin: 20px;
+    text-align: center;
+}
