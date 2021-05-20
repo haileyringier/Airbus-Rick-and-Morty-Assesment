@@ -1,7 +1,7 @@
 
 body {
-    /* align-content: center; */
     text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .character-card-section {
@@ -12,8 +12,19 @@ body {
 }
 
 .character-card {
-    border: black 2px solid;
-    min-width: 200px;
+    border: gainsboro 2px solid;
+    width: 300px;
     margin: 20px;
-    text-align: center;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 8px;
+    padding: 8px;
 }
+
+.character-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+  /* // 00B0C8
+// 75CB38 */
