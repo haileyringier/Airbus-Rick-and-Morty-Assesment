@@ -4,6 +4,25 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.overview-buttons {
+    border-radius: 8px;
+    width: 100px;
+    height: 50px;
+    margin: 0 5px 0 5px;
+    background-color: #00B0C8;
+    border: gainsboro;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    font-size: 18px;
+    color: white;
+}
+
+.overview-buttons:disabled,
+button[disabled]{
+border: 1px solid #999999;
+background-color: #cccccc;
+color: #666666;
+}
+
 .character-card-section {
     display: flex;
     flex-direction: row;
