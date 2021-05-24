@@ -1,4 +1,4 @@
-# Airbus Coding Assesment 
+# Airbus Coding Assessment 
 > Software Engineer - Full Stack / Node / React / GraphQL
 
 The deliverables for this assesment were to fetch data from the Ricky and Morty API using GraphQL and display to the user. 
